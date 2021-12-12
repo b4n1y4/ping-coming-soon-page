@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,200;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <header>
+          <h1 class="title">
+            PING
+            <div class="period-square"></div>
+          </h1>
+          <h2 class="subtitle">
+            We are launching <span class="bold">soon!</span>
+          </h2>
+        </header>
+        <section class="form-container">
+          <h3 class="form-title">Subscribe and get notified</h3>
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email address..."
+              class="invalid"
+            />
+            <div class="error" id="error">
+              <em>Please provide a valid email address</em>
+            </div>
+            <button type="button" id="submit-btn">Notify Me</button>
+          </form>
+        </section>
+        <section class="illustration-container">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="illustration-dashboard"
+            class="illustration"
+          />
+        </section>
+      </main>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+      <footer>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/b4n1y4"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://instagram.com/b4n1y4"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footer-text">
+          &copy; Copyright Ping. All rights reserved.
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
