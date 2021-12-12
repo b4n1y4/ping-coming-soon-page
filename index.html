@@ -20,7 +20,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,200;1,700&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
@@ -39,16 +42,19 @@
         <section class="form-container">
           <h3 class="form-title">Subscribe and get notified</h3>
           <form>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Your email address..."
-              class="invalid"
-            />
-            <div class="error" id="error">
-              <em>Please provide a valid email address</em>
+            <div class="input-error-container">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email address..."
+                class="invalid"
+              />
+              <div class="error" id="error">
+                <em>Please provide a valid email address</em>
+              </div>
             </div>
+
             <button type="button" id="submit-btn">Notify Me</button>
           </form>
         </section>

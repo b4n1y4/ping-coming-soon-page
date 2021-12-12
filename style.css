@@ -53,7 +53,7 @@ main {
 .subtitle {
   font-weight: 300;
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
   color: hsl(0, 0%, 59%);
 }
 
@@ -80,6 +80,10 @@ form {
   align-items: center;
   justify-content: center;
   margin-bottom: 4rem;
+}
+
+.input-error-container {
+  width: 100%;
 }
 
 input,
@@ -147,7 +151,7 @@ i.fab {
   border-radius: 50%;
 }
 
-i.fab:hover{
+i.fab:hover {
   color: white;
   background-color: hsl(223, 87%, 63%);
 }
@@ -158,13 +162,39 @@ i.fab:hover{
   color: hsl(0, 0%, 59%);
 }
 
-/* @media screen and (min-width: 651px) {
-
-  body{
+@media screen and (min-width: 651px) {
+  body {
     display: grid;
-    place-items: center
+    place-items: center;
   }
 
-  
-  
-} */
+  main {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  form {
+    flex-direction: row;
+  }
+
+  input {
+    width: 95%;
+  }
+
+  button {
+    width: 40%;
+  }
+  button:hover {
+    background-color: hsla(223, 87%, 63%, 0.7);
+  }
+  .error {
+    margin-bottom: 0;
+  }
+}
