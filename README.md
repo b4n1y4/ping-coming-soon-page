@@ -37,7 +37,7 @@ Desktop design
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub/ping-single-column-coming-soon-page-0E1Dy9k5Q/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/ping-coming-soon-html-css-javascript-flexbox-81D8HWOUB)
 - Live Site URL: [Live site](https://b4n1y4.github.io/ping-coming-soon-page/)
 
 ## My process
